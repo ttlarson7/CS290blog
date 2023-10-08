@@ -1,0 +1,25 @@
+body{
+    background-color: #006d77;
+}
+
+.blog_post_container{
+    display: flex;
+    justify-content: center;
+    
+}
+.title-container{
+    display:flex;
+    justify-content: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.blog1{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #83c5be;
+    border-radius: 20px;
+    flex-direction: column;
+    
+}
