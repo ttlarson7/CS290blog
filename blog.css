@@ -1,0 +1,81 @@
+body{
+    background-color: #2b2d42;
+}
+
+.blog_post_container{
+    display: flex;
+    justify-content: center;
+    font-family: Poppins, sans-serif;
+    
+}
+.title-container{
+    display:flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: Poppins, sans-serif;
+    
+}
+
+#title{
+    background-image: linear-gradient(to left, #f59d7a, #ff4516);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+
+.blog_post_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    /* background-color: black;
+     */
+}
+
+.blog1{
+    width: 60%;
+    background-color: #eb5e28;
+    margin: 10px;
+    font-size: large;
+    border-radius: 20px;
+    transition: width .2s ease-in-out, height .5s ease-in-out;
+}
+
+#hidden1{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#hidden2{
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#buttonContainer{
+    position: fixed;
+    justify-content: center;
+    bottom: 10%;
+    
+}
+
+#backtoprofile{
+    background-image: linear-gradient(to right, #f59d7a, #ff4516);
+    size: 10px;
+    border-radius: 20px;
+    
+}
+
+#backtoprofile:hover{
+    background-image: linear-gradient(to right, #ff4e4e, #ff1616);
+}
+
+
+
+
